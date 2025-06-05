@@ -2,4 +2,4 @@
 
 This is my personal portfolio website showcasing my projects, skills, and certifications.
 
-🔗 **Live Website:** [View Here](friendly-semolina-8630da.netlify.app)
+🔗 **Live Website:** [View Here](https://friendly-semolina-8630da.netlify.app)
