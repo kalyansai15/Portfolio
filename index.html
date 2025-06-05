@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">Kalyan</div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Kalyan Sai Goud</span></h1>
+            <h2><span id="typed-text"></span></h2>
+            <div class="hero-buttons">
+                <a href="assets/resume.pdf" class="btn primary-btn" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                <a href="#projects" class="btn secondary-btn">
+                    <i class="fas fa-code"></i> View Projects
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kalyansai15/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/kalyansai15" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:kalyansai.goundla@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate Computer Science student with a keen interest in problem-solving, web development, IoT, and AI-based solutions. Proficient in Java, Python, and C++, with hands-on experience in web technologies, databases, and hardware platforms. I'm eager to learn, adapt, and contribute to innovative and impactful tech solutions.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-user"></i>
+                        <span>Name:</span>
+                        <p>Kalyan Sai Goud</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email:</span>
+                        <p>Kalyansai.goundla@gmail.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone:</span>
+                        <p>+91 9381687807</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location:</span>
+                        <p>Hyderabad, Telangana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="/assets/Profile.jpg" alt="Kalyan">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">Education Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021 - 2025</div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Malla Reddy University</h4>
+                    <p class="field">Computer Science - IOT</p>
+                    <div class="timeline-details">
+                        <div class="detail">
+                            <i class="fas fa-star"></i>
+                            <span>CGPA: 8.21</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, Telangana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Intermediate Education</h3>
+                    <h4>Bhavans Sri Aurobindo Junior College</h4>
+                    <p class="field">Science Stream</p>
+                    <div class="timeline-details">
+                        <div class="detail">
+                            <i class="fas fa-percentage"></i>
+                            <span>Percentage: 71%</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, Telangana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2009 - 2019</div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Secondary Education</h3>
+                    <h4>St. Martin's High School</h4>
+                    <p class="field">General Education</p>
+                    <div class="timeline-details">
+                        <div class="detail">
+                            <i class="fas fa-percentage"></i>
+                            <span>Percentage: 75.08%</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, Telangana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+            <!-- Left Column -->
+            <div class="skills-column">
+                <div class="skills-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <h4>MySQL</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <h4>MongoDB</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Development Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h4>VS Code</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Eclipse</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-code-branch"></i> Version Control</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <h4>GitHub</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="skills-column">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <h4>Java</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h4>C++</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-microchip"></i> Hardware Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <h4>Raspberry Pi</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <h4>Arduino UNO</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <h4>ESP32</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/ev-logo.jpeg" alt="EV Charging Station Finder">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15/EV-WebApp" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>EV Charging Station Finder</h3>
+                    <p class="project-description">A web-based application for EV owners to locate nearby charging stations and book charging slots in advance. Features real-time slot availability, user accounts, and an admin panel.</p>
+                    <div class="tech-stack">
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/facemask.jpeg" alt="Face Mask Detection">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15/FaceMask_Detection" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Face Mask Detection</h3>
+                    <p class="project-description">A real-time face mask detection system using OpenCV and TensorFlow. Features a custom CNN model for high-accuracy detection on live video streams.</p>
+                    <div class="tech-stack">
+                        <span>OpenCV</span>
+                        <span>TensorFlow</span>
+                        <span>Deep Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/Hand-Gesture.jpg" alt="Hand Gesture Controlled Robot">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15/Hand_Gesture_Controlled_Robot" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Hand Gesture Controlled Robot</h3>
+                    <p class="project-description">A wireless gesture-controlled robot using Arduino and MPU6050. Features real-time hand gesture recognition for precise and contactless operation.</p>
+                    <div class="tech-stack">
+                        <span>Arduino</span>
+                        <span>MPU6050</span>
+                        <span>nRF24L01</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/ATM.jpeg" alt="ATM Security System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15/Centralized-ATM-Security-System" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Centralized ATM Security System</h3>
+                    <p class="project-description">An IoT-driven ATM security system with Hall-effect sensors and Flask. Features live surveillance and intrusion detection for enhanced ATM safety.</p>
+                    <div class="tech-stack">
+                        <span>IoT</span>
+                        <span>Flask</span>
+                        <span>Google Assistant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/SmartHome.jpeg" alt="Smart Home Automation">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Smart Home Automation System</h3>
+                    <p class="project-description">A Blynk-controlled home automation system using ESP32. Enables remote control of lights, fans, and devices via mobile application.</p>
+                    <div class="tech-stack">
+                        <span>ESP32</span>
+                        <span>Blynk</span>
+                        <span>IoT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/Netflix.jpeg" alt="Netflix Clone">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/kalyansai15/Netflix_Clone_Using_React" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Netflix Clone WebApp</h3>
+                    <p class="project-description">A responsive Netflix clone web application using React.js. Features Firebase Authentication and dynamic content fetching from TMDb API.</p>
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Firebase</span>
+                        <span>TMDb API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+          
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/Programming In Java.jpg" alt="Programming in Java">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Programming in Java</h3>
+              <p>Completed training on Java concepts, OOP principles, and application development techniques.</p>
+            </div>
+          </div>
+      
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/SQL.jpg" alt="SQL for Data Science">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>SQL for Data Science</h3>
+              <p>Learned SQL queries, data analysis, and database fundamentals for real-world applications.</p>
+            </div>
+          </div>
+      
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/HTML.jpg" alt="Programming Foundations">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Programming Foundations with JS, HTML & CSS</h3>
+              <p>Mastered front-end skills using JavaScript, HTML, and CSS for responsive web development.</p>
+            </div>
+          </div>
+      
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/IOT.jpg" alt="IoT Boards Programming">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Introduction and Programming with IoT Boards</h3>
+              <p>Hands-on programming on Arduino and Raspberry Pi boards with IoT project integration.</p>
+            </div>
+          </div>
+      
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/BIGDATA.jpg" alt="English B2">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Big Data Emerging Technologies</h3>
+              <p>Completed training on Big Data technologies, including Hadoop, Spark, and NoSQL databases.</p>
+            </div>
+          </div>
+      
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/CYBER.jpg" alt="Cybersecurity Simulation">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Tata Cybersecurity Analyst Job Simulation</h3>
+              <p>Completed a professional virtual job simulation via Forage in cybersecurity incident response.</p>
+            </div>
+          </div>
+
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/EXCEL.jpg" alt="Cybersecurity Simulation">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Work Smarter with Microsoft Excel</h3>
+              <p>Learned advanced Excel functions, data analysis, and automation for efficient work processes.</p>
+            </div>
+          </div>
+
+          <div class="certification-item">
+            <div class="certificate-image">
+              <img src="assets/GIT.jpg" alt="Getting Started with Git and GitHub">
+            </div>
+            <div class="certificate-info">
+              <i class="fas fa-certificate"></i>
+              <h3>Getting Started with Git and GitHub</h3>
+              <p>Learned Git version control system and GitHub for project collaboration and version management.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-items">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>kalyansai.goundla@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9381687807</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Hyderabad, Telangana</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kalyansai15/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kalyansai15" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:kalyansai.goundla@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/xanjyzyd" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
